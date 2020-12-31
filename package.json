@@ -5,7 +5,7 @@
     ],
     "scripts": {
         "test": "lerna run test",
-        "test:changed": "lerna run test --since",
+        "test:changed": "lerna run test --since HEAD",
         "test:common": "lerna run test --scope=@lerna-tut/common",
         "test:related": "lerna run test --scope={@lerna-tut/common,@lerna-tut/server}",
         "new-version": "lerna version --conventional-commits --yes",
