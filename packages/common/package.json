@@ -1,0 +1,9 @@
+{
+  "name": "@lerna-tut/common",
+  "version": "1.0.2",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo testing common with version $npm_package_version"
+  }
+}
